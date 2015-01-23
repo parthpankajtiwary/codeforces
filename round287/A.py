@@ -14,7 +14,8 @@ for x in a:
 		count += 1
 		if s.index(x) not in indices:
 			indices.append(s.index(x))
-			s = s[:s.index(x)] + ["#"] + s[s.index(x)+1:]				
+			s = s[:s.index(x)] + ["#"] + s[s.index(x)+1:]
+			print s				
 
 print count
 for x in indices:
